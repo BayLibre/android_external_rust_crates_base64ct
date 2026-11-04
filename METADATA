@@ -1,0 +1,28 @@
+name: "base64ct"
+description: "Pure Rust implementation of Base64 (RFC 4648) which avoids any usages of data-dependent branches/LUTs and thereby provides portable \"best effort\" constant-time operation and embedded-friendly no_std support"
+third_party {
+  version: "1.8.3"
+  license_type: NOTICE
+  last_upgrade_date {
+    year: 2026
+    month: 11
+    day: 4
+  }
+  homepage: "https://crates.io/crates/base64ct"
+  identifier {
+    type: "crates.io"
+    value: "base64ct"
+    version: "1.8.3"
+    primary_source: true
+  }
+  identifier {
+    type: "Archive"
+    value: "https://static.crates.io/crates/base64ct/base64ct-1.8.3.crate"
+    version: "1.8.3"
+  }
+  identifier {
+    type: "Git"
+    value: "https://github.com/RustCrypto/formats"
+    version: "9adf88fe3e6e0fb9f8cf20b54747aff67a3eca6e"
+  }
+}
